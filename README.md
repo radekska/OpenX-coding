@@ -9,3 +9,8 @@ Solution for recruitment task:
             ● sprawdzi czy tytuły postów są unikalne i zwróci listę tytułów które nie są.
             ● dla każdego użytkownika znajdzie innego użytkownika, który mieszka najbliżej niego
       Pożądanym elementem danego rozwiązania jest także zestaw testów sprawdzających jego poprawność.
+
+Note:
+      
+      To start program run python3 main.py
+      To start tests run python3 tests.py
