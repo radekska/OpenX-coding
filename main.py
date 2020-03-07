@@ -2,8 +2,8 @@ from source import *
 
 
 if __name__ == '__main__':
+	
 	data_json = get_data()
-
 	user_post_iterator = UsersnPosts(data_json[0], data_json[1])
 
 	print("============= 1 - LICZBA POSTÓW ===================")
