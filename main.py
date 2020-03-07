@@ -2,8 +2,13 @@ from source import *
 
 
 if __name__ == '__main__':
+	
 	data_json = get_data()
+<<<<<<< HEAD
 	user_post_iterator = UsersnPosts(data_json)
+=======
+	user_post_iterator = UsersnPosts(data_json[0], data_json[1])
+>>>>>>> refs/remotes/origin/master
 
 	print("============= 1 - LICZBA POSTÓW ===================")
 	print(count_posts(user_post_iterator), end='\n\n')
