@@ -12,5 +12,5 @@ Solution for recruitment task:
 
 Note:
       
-      To start program run ***python3 main.py***
-      To start tests run ***python3 tests.py***
+      To start program run *python3 main.py*
+      To start tests run *python3 tests.py*
