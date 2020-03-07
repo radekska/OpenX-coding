@@ -10,7 +10,7 @@ Solution for recruitment task:
             ● dla każdego użytkownika znajdzie innego użytkownika, który mieszka najbliżej niego
       Pożądanym elementem danego rozwiązania jest także zestaw testów sprawdzających jego poprawność.
 
-Note:
+***Note:***
       
-      To start program run *python3 main.py*
+      To start program run python3 main.py*
       To start tests run *python3 tests.py*
