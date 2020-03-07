@@ -4,9 +4,8 @@ from collections import namedtuple
 
 
 class UsersnPosts:
-    def __init__(self, user_data_json, post_data_json):
-        self.user_data_json = user_data_json
-        self.post_data_json = post_data_json
+    def __init__(self, data_json):
+        self.user_data_json, self.post_data_json = data_json
         self.u_data = list(Users(self.user_data_json))
         self.p_data = list(Posts(self.post_data_json))
         self.UsernPost = namedtuple('UsernPost', ['User', 'Posts'])

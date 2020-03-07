@@ -3,8 +3,7 @@ from source import *
 
 if __name__ == '__main__':
 	data_json = get_data()
-
-	user_post_iterator = UsersnPosts(data_json[0], data_json[1])
+	user_post_iterator = UsersnPosts(data_json)
 
 	print("============= 1 - LICZBA POSTÓW ===================")
 	print(count_posts(user_post_iterator), end='\n\n')
