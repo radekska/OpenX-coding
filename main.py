@@ -15,4 +15,3 @@ print("============= 3 - NAJBLIŻSI UŻYTKOWNICY ====================")
 
 
 
-print(len(list(user_post_iterator)))
